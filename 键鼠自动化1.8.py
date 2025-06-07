@@ -16,7 +16,7 @@ import colorsys
 class MouseKeyboardAutomation:
     def __init__(self, root):
         self.root = root
-        self.root.title("键鼠自动化工具 v1.8")  # 更新版本号
+        self.root.title("键鼠自动化工具 v1.8-deepseek制作")  # 更新版本号
         self.root.geometry("1600x1200")
         
         # 设置全局字体
@@ -472,6 +472,8 @@ end
 - 图片识别需要提供图片路径，可以使用相对路径或绝对路径
 - 图片识别精度范围0.1-1.0，值越高匹配越严格
 - 使用$lastimg变量可以获取最近识别的图片位置
+
+全部代码由deepseek生成
 """
         messagebox.showinfo("命令参考", reference)
 
